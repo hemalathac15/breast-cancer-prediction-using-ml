@@ -1,20 +1,17 @@
 #Breast Cancer Prediction Using K-Nearest Neighbors (KNN)
+
 This project implements a machine learning workflow to classify breast cancer tumors as either Malignant or Benign based on cellular characteristics. The model utilizes the K-Nearest Neighbors (KNN) Classifier built with scikit-learn.  
 IPYNB
 + 1
 
-Table of Contents
+#Table of Contents
 Dataset Overview
-
 Project Workflow
-
 Dependencies
-
 Model Performance
-
 Usage
 
-Dataset Overview
+#Dataset Overview
 The model trains on a dataset containing clinical characteristics of breast cancer tumor nuclei.  
 IPYNB
 
@@ -32,7 +29,7 @@ IPYNB
 0 = Benign (No Cancer)  
 IPYNB
 
-Project Workflow
+#Project Workflow
 Data Exploration & Cleaning:
 
 Load the dataset (breast cancer.csv) and examine its dimensions, structural info, and numerical distributions.  
@@ -52,7 +49,7 @@ IPYNB
 Split the dataset into 80% Training and 20% Testing subsets using stratified sampling to maintain proper class distributions.  
 IPYNB
 
-Feature Scaling:
+#Feature Scaling:
 
 Apply StandardScaler to calculate mean and standard deviation variations solely from the training data, scaling both subsets effectively to safeguard against data leakage.  
 IPYNB
@@ -70,7 +67,7 @@ Predictive System:
 Build an inference pipeline capable of reshaping, scaling, and classifying isolated patient samples.  
 IPYNB
 
-Dependencies
+#Dependencies
 To run this notebook successfully, ensure you have the following Python libraries installed:
 
 Bash
@@ -87,7 +84,7 @@ Achieved Test Accuracy: ~95.61%
   
 IPYNB
 
-Usage
+#Usage
 Running the Notebook
 Make sure your dataset file is named exactly breast cancer.csv and placed in the same directory as the notebook.  
 IPYNB
