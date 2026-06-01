@@ -107,3 +107,6 @@ if prediction[0] == 1:
     print("Prediction: Malignant (Cancer Detected)")
 else:
     print("Prediction: Benign (No Cancer)")
+
+else:
+    print("Prediction: Benign (No Cancer)")
